@@ -1,5 +1,5 @@
 {
-  "sea_level": -64,
+  "sea_level": 63,
   "disable_mob_generation": false,
   "aquifers_enabled": false,
   "ore_veins_enabled": true,
@@ -8,10 +8,7 @@
     "Name": "minecraft:barrier"
   },
   "default_fluid": {
-    "Name": "minecraft:water",
-    "Properties": {
-      "level": "0"
-    }
+    "Name": "minecraft:end_stone"
   },
   "noise": {
     "min_y": -64,

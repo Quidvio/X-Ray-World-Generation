@@ -42,64 +42,52 @@
                 "blocks": "minecraft:air"
               },
               {
-                "type": "minecraft:would_survive",
-                "state": {
-                  "Name": "minecraft:sugar_cane",
-                  "Properties": {
-                    "age": "0"
-                  }
-                }
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:barrier",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
               },
               {
                 "type": "minecraft:any_of",
                 "predicates": [
                   {
-                    "type": "minecraft:matching_fluids",
-                    "fluids": [
-                      "minecraft:water",
-                      "minecraft:flowing_water"
-                    ],
+                    "type": "minecraft:matching_blocks",
                     "offset": [
                       1,
                       -1,
                       0
-                    ]
+                    ],
+                    "blocks": "minecraft:end_stone"
                   },
                   {
-                    "type": "minecraft:matching_fluids",
-                    "fluids": [
-                      "minecraft:water",
-                      "minecraft:flowing_water"
-                    ],
+                    "type": "minecraft:matching_blocks",
                     "offset": [
                       -1,
                       -1,
                       0
-                    ]
+                    ],
+                    "blocks": "minecraft:end_stone"
                   },
                   {
-                    "type": "minecraft:matching_fluids",
-                    "fluids": [
-                      "minecraft:water",
-                      "minecraft:flowing_water"
-                    ],
+                    "type": "minecraft:matching_blocks",
                     "offset": [
                       0,
                       -1,
                       1
-                    ]
+                    ],
+                    "blocks": "minecraft:end_stone"
                   },
                   {
-                    "type": "minecraft:matching_fluids",
-                    "fluids": [
-                      "minecraft:water",
-                      "minecraft:flowing_water"
-                    ],
+                    "type": "minecraft:matching_blocks",
                     "offset": [
                       0,
                       -1,
                       -1
-                    ]
+                    ],
+                    "blocks": "minecraft:end_stone"
                   }
                 ]
               }
